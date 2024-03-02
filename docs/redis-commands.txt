@@ -1,0 +1,8 @@
+// ingresar a la consola de redis con docker exec
+redis-cli
+
+// listar llaves en redis
+KEYS *
+
+// obtener el valor de una key
+GET <name_key>
